@@ -1,3 +1,3 @@
-# foca.
+# foca
 
-A simple focus app based on pomodoro principles.
+A simple focus app based on the Pomodoro Technique.

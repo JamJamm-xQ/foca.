@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+
 import 'Screens/home.dart';
-import 'Screens/timer.dart';
 import 'Screens/settings.dart';
+import 'Screens/timer.dart';
 
 void main() {
   runApp(const Foca());
@@ -16,7 +17,7 @@ class Foca extends StatefulWidget {
 
 class _FocaState extends State<Foca> {
   int _currentIndex = 0;
-  List _screens = [Home(), Timer(), Settings()];
+  final List _screens = [Home(), Timer(), Settings()];
 
   void _updateIndex(int value) {
     setState(() {
@@ -77,13 +78,6 @@ class _FocaState extends State<Foca> {
   }
 }
 
-
-
-
-
-
-
-
 /*Scaffold(
         backgroundColor: Colors.black,
         /* appBar: AppBar(
@@ -104,7 +98,7 @@ class _FocaState extends State<Foca> {
           ],
         ),
       ),
-      
+
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',

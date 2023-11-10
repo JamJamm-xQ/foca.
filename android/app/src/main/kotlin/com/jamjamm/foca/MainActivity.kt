@@ -1,4 +1,4 @@
-package com.example.foca
+package com.jamjamm.foca
 
 import io.flutter.embedding.android.FlutterActivity
 
